@@ -1,0 +1,28 @@
+.hero-card {
+  width: 280px;
+  height: 50vh;
+  overflow-y: scroll;
+  margin: 30px;
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.hero-pic {
+  width: auto;
+}
+
+/* .hero-pic img {
+  width: 347px;
+  height: 230px;
+} */
+
+.hero-info {
+  width: auto;
+  text-align: start;
+  box-sizing: border-box;
+}
+
+.sub-title {
+  font-weight: 600;
+}
