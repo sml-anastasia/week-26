@@ -208,6 +208,7 @@ let superheroes = JSON.parse(superheroesJSON);
 function App() {
   return (
     <div className="App">
+        <h1>Superheroes</h1>
       {
         superheroes.map((hero) =>
           <Hero name={hero.name} pic={hero.pic} alt={hero.alt} universe={hero.universe} alterEgo={hero.alterEgo} occupation={hero.occupation} friends={hero.friends} powers={hero.powers} description={hero.description}></Hero>
