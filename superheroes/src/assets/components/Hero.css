@@ -9,13 +9,9 @@
 }
 
 .hero-pic {
-  width: auto;
+  width: 250px;
+  height: auto;
 }
-
-/* .hero-pic img {
-  width: 347px;
-  height: 230px;
-} */
 
 .hero-info {
   width: auto;

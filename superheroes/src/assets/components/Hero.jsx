@@ -6,7 +6,7 @@ function Hero(props) {
         <div className="hero-card">
             <h2>{props.name}</h2>
             <div className="hero-pic">
-                <img src={props.pic} alt={props.alt} />
+                <img className="hero-pic" src={props.pic} alt={props.alt} />
             </div>
             <div className="hero-info">
                 <p><span className="sub-title">Вселенная: </span>{props.universe}</p>
